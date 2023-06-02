@@ -1,0 +1,60 @@
+body{
+    background-color: hsl(0, 0%, 2%);
+}
+.logo{
+    width: 350px;
+    height: 350px;
+    background: radial-gradient(
+        circle at 30% 100%,
+        #f5dd54 10%,
+        #e6721f 30%,
+        #f15245 40%,
+        #d92e7f 62%,
+        #9b36b7 85%,
+        #515ecf);
+    border-radius: 30%;
+    position: relative;
+}
+
+.cuadrado{
+    border: 1rem solid #fff;
+    content: " ";
+    border-radius: 30%;
+    width: 16rem;
+    height: 16rem;
+    right: 0;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    top: 25px;
+}
+
+.bola{
+    border: 1rem solid #fff;
+    content: " ";
+    border-radius: 100%;
+    width: 7rem;
+    height: 7rem;
+    right: 0;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    top: 56px;
+}
+
+span{
+    border: 1rem solid #fff;
+    content: " ";
+    border-radius: 100%;
+    width: 0rem;
+    height: 0rem;
+    right: 0;
+    left: 10rem;
+    margin: auto;
+    position: absolute;
+    top: 1.5rem;
+}
+
+.mover{
+    padding: 300px 250px 250px 800px;
+}
